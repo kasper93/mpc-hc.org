@@ -37,20 +37,48 @@
                 Some features, like the navigation button, won't be available.</p>
             </div>
         </noscript>
+        <script>
+
+            (function () {
+                'use strict';
+
+                function loadGA() {
+                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                    ga('create', 'UA-9335012-2', 'mpc-hc.org');
+                    ga('set', 'anonymizeIp', true);
+                    ga('send', 'pageview');
+                }
+
+
+                {% if page.slug == "home" or page.slug == "downloads" %}
+                // Sourceforge accelator program
+                function loadSF() {
+                    (function() {
+                        var el = document.createElement('script');
+                        el.src = '//sourceforge.net/accelerator/js?partner_id=72';
+                        el.defer = true;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(el, s);
+                    })();
+                }
+                {% endif %}
+
+                // load stuff asynchronously
+                loadGA();
+                {% if page.slug == "home" or page.slug == "downloads" %}
+                window.onload = loadSF;
+                {% endif %}
+            }());
+
+        </script>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/assets/js/jquery-1.11.1.min.js"><\/script>')</script>
         <script src="/assets/js/pack.js"></script>
-        {% if page.slug == "downloads" or page.slug == "home" %}
-        <script>
-            (function() {
-                var el = document.createElement('script');
-                el.src = '//sourceforge.net/accelerator/js?partner_id=72';
-                el.defer = true;
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(el, s);
-            })();
-        </script>
-        {% endif %}
 
         {% if page.slug == "home" %}
         <script>
