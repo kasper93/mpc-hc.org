@@ -208,9 +208,6 @@ footer ul {
     text-shadow: none;
 }
 
-.fancybox-thumb {
-    display: inline-block;
-}
 
 /* -- media queries -- */
 @media (max-width: 767px) {
@@ -303,6 +300,12 @@ footer ul {
 
     .navbar-nav > li > a {
         padding: 15px 8px 8px 8px;
+    }
+}
+
+@media (min-width: 992px) {
+    .thumbnail {
+        display: inline-block;
     }
 }
 
