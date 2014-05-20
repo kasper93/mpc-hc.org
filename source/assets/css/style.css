@@ -254,11 +254,6 @@ footer ul {
         margin-left: 16px;
     }
 
-    .navbar-nav > li:last-of-type > a {
-        padding-bottom: 11px;
-        padding-top: 11px;
-    }
-
     .navbar-toggle + .nav-collapse {
         margin-top: 0;
     }
@@ -290,16 +285,6 @@ footer ul {
     .footer-left,
     .footer-center {
         border-right: 1px solid #D2D2D2;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .navbar-nav > li > a:first-child {
-        padding-left: 0;
-    }
-
-    .navbar-nav > li > a {
-        padding: 15px 8px 8px 8px;
     }
 }
 
