@@ -34,7 +34,7 @@
         <script src="/assets/js/html5shiv-respond.min.js"></script>
         <![endif]-->
     </head>
-    <body{% if page.slug == "downloads" %} class="{{ page.slug }}"{% endif %}>
+    <body{% if page.slug == "downloads" or page.slug == "home" %} class="{{ page.slug }}"{% endif %}>
         <!--[if lt IE 8]>
             <div class="alert alert-warning text-center"><strong>Warning!</strong> You are using an <strong>outdated</strong> browser. Please <a class="alert-link" href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
         <![endif]-->

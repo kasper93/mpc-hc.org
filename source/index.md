@@ -27,42 +27,47 @@ slug: home
 <hr>
 
 <div class="row">
-    <div class="col-xs-12 col-md-4">
-        <a class="thumbnail" data-fancybox-group="gallery" href="/assets/img/screenshots/mpc-hc.original.jpg" title="MPC-HC's main window">
-            <img class="img-responsive" src="/assets/img/screenshots/mpc-hc.original.thumb.jpg" alt="MPC-HC" width="180" height="134">
-        </a>
-    </div>
-    <div class="col-xs-12 col-md-4">
-        <a class="thumbnail" data-fancybox-group="gallery" href="/assets/img/screenshots/mpc-hc.toolbar.jpg" title="MPC-HC with custom toolbar" data-title-id="title-toolbar">
-            <img class="img-responsive" src="/assets/img/screenshots/mpc-hc.toolbar.thumb.jpg" alt="MPC-HC with custom toolbar" width="180" height="134">
-        </a>
-        <div id="title-toolbar" class="hidden">
-            MPC-HC with <a href="https://trac.mpc-hc.org/wiki/Toolbar_images" target="_blank">custom toolbar</a>.
+    <div class="col-md-4">
+        <div class="thumbnail text-center">
+            <a class="thumbnail fancybox-thumb" data-fancybox-group="gallery" href="/assets/img/screenshots/mpc-hc.original.jpg" title="MPC-HC's main window">
+                <img class="img-responsive" src="/assets/img/screenshots/mpc-hc.original.thumb.jpg" alt="MPC-HC" width="180" height="134">
+            </a>
+            <div class="caption">
+                <h3>Lightweight</h3>
+                <p>
+                    Watch movies on any SSE CPU, even on your old computer back from '99
+                </p>
+            </div>
         </div>
     </div>
-    <div class="col-xs-12 col-md-4">
-        <a class="thumbnail" data-fancybox-group="gallery" href="/assets/img/screenshots/mpc-hc.dvb.jpg" title="MPC-HC as DVB Player">
-            <img class="img-responsive" src="/assets/img/screenshots/mpc-hc.dvb.thumb.jpg" alt="MPC-HC as DVB Player" width="182" height="137">
-        </a>
+    <div class="col-md-4">
+        <div class="thumbnail text-center">
+            <a class="thumbnail fancybox-thumb" data-fancybox-group="gallery" href="/assets/img/screenshots/mpc-hc.toolbar.jpg" title="MPC-HC with custom toolbar" data-title-id="title-toolbar">
+                <img class="img-responsive" src="/assets/img/screenshots/mpc-hc.toolbar.thumb.jpg" alt="MPC-HC with custom toolbar" width="180" height="134">
+            </a>
+            <div id="title-toolbar" class="hidden">
+                MPC-HC with <a href="https://trac.mpc-hc.org/wiki/Toolbar_images" target="_blank">custom toolbar</a>.
+            </div>
+            <div class="caption">
+                <h3>Customizable</h3>
+                <p>
+                    With its wide array of options, MPC-HC can be customized to fit almost any needs. Among other things we added custom toolbars.
+                </p>
+            </div>
+        </div>
     </div>
-</div>
-
-<hr>
-
-<div class="row marketing">
-
-    <div class="col-xs-12 col-md-4">
-        <h2>Lightweight</h2>
-        <p>Watch movies on any SSE CPU, even on your old computer back from '99</p>
-    </div>
-    <div class="col-xs-12 col-md-4">
-        <h2>Customizable</h2>
-        <p>With its wide array of options, MPC-HC can be customized to fit
-        almost any needs. Among other things we added custom toolbars.</p>
-    </div>
-    <div class="col-xs-12 col-md-4">
-        <h2>All around player</h2>
-        <p>MPC-HC can also be used as DVB player.</p>
+    <div class="col-md-4">
+        <div class="thumbnail text-center">
+            <a class="thumbnail fancybox-thumb" data-fancybox-group="gallery" href="/assets/img/screenshots/mpc-hc.dvb.jpg" title="MPC-HC as DVB Player">
+                <img class="img-responsive" src="/assets/img/screenshots/mpc-hc.dvb.thumb.jpg" alt="MPC-HC as DVB Player" width="182" height="137">
+            </a>
+            <div class="caption">
+                <h3>All around player</h3>
+                <p>
+                    MPC-HC can also be used as DVB player.
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 

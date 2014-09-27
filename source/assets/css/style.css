@@ -292,6 +292,10 @@ footer ul {
     .thumbnail {
         display: inline-block;
     }
+
+    .home div.thumbnail {
+        min-height: 350px;
+    }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2.0),

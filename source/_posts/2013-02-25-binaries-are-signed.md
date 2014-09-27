@@ -24,7 +24,7 @@ or a potential *scam* file.
 
 <div class="row">
     <div class="col-xs-12 col-md-4">
-        <a class="thumbnail" data-fancybox-group="gallery" href="/assets/img/news/properties-signature.png" title="Explorer Properties Signature tab">
+        <a class="thumbnail fancybox-thumb" data-fancybox-group="gallery" href="/assets/img/news/properties-signature.png" title="Explorer Properties Signature tab">
             <img src="/assets/img/news/properties-signature-thumb.png" alt="Properties Signature" width="300" height="241">
         </a>
     </div>
@@ -36,7 +36,7 @@ installation and download the file again from our [*downloads*](/downloads/).
 
 <div class="row">
     <div class="col-xs-12 col-md-4">
-        <a class="thumbnail" data-fancybox-group="gallery" href="/assets/img/news/install-uac.png" title="Install UAC prompt">
+        <a class="thumbnail fancybox-thumb" data-fancybox-group="gallery" href="/assets/img/news/install-uac.png" title="Install UAC prompt">
             <img src="/assets/img/news/install-uac-thumb.png" alt="Install UAC prompt" width="300" height="183">
         </a>
     </div>
