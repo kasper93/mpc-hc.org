@@ -189,7 +189,11 @@ footer ul {
             transform: rotate(360deg);
 }
 
-.pager li > a > i {
+.paginate-container {
+    margin: 20px auto;
+}
+
+.pagination li i {
     vertical-align: middle;
 }
 
