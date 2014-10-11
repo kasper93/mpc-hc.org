@@ -43,3 +43,27 @@ Hint
 
     Supporting these new platforms require a lot of changes and this is simply
     not possible for us in the near future, with the current manpower.
+
+7. **Why after playback event doesn't work when repeat forever is selected?**
+
+    Repeat forever option means that the current playlist will be repeated every time and
+    because of that none after playback event is executed. We ecourage to use playlist which
+    let you queue files to playback.
+
+8. **Why am I seeing player logo or cover art during audio file playback, how can I hide it?**
+
+    Cover-art image loading can be disabled in options->player settings page. If you want also to
+    have minimal MPC-HC window size upon opening audio file you need to adjust size limit for audio files
+    in Options->Advanced->CoverArtSizeLimit.
+
+9. **I want to pause playback with mouse click, but my window is dragged instead, what is happening?**
+
+    If you click on video space and the mouse pointer is not moved in between button click and release, playback
+    will be paused, but if you move your mouse pointer window will be dragged. If you want to prevent such
+    behaviour change Play/Pause command (Options->Keys) to "Left Down" instead of default "Left Up".
+
+10. **Why PGS subtitles goes out of video frame?**
+
+    PGS subtitles are rendered in the exact same position as for Blu-ray and if video frame was cropped to remove
+    black bars, subtitles can still use this space. We do that to maintain best possible quality and reproduction of
+    subtitles. Don't worry, nothing is lost you just need to resize MPC-HC window to restore previously cropped space.
